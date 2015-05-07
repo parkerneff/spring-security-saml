@@ -114,7 +114,7 @@
     <bean id="metadataGeneratorFilter" class="org.springframework.security.saml.metadata.MetadataGeneratorFilter">
         <constructor-arg>
             <bean class="org.springframework.security.saml.metadata.MetadataGenerator">
-                <property name="entityId" value="urn:test:parkerneff:gilbert"/>
+                <property name="entityId" value="dev.service.openccc.net"/>
             </bean>
         </constructor-arg>
     </bean>
