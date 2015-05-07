@@ -195,9 +195,7 @@
                             <property name="requireArtifactResolveSigned" value="false"/>
                             <property name="requireLogoutRequestSigned" value="false"/>
                             <property name="requireLogoutResponseSigned" value="false"/>
-                            <property name="idpDiscoveryEnabled" value="true"/>
-                            <property name="idpDiscoveryURL" value="https://dev.service.openccc.net/spring-security-saml2-sample/saml/discovery"/>
-                            <property name="idpDiscoveryResponseURL" value="https://dev.service.openccc.net/spring-security-saml2-sample/saml/login?disco=true"/>
+
                         </bean>
                     </constructor-arg>
                 </bean>
